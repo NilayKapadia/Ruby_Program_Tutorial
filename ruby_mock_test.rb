@@ -7,46 +7,46 @@
     full = 100
 
     # Q1
-    # begin
-    #   average([10, 20, 30, 40]) == 25 ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
-    #
-    # # Q2
-    # begin
-    #   twin_prime?(7,11)  == false ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
-    #
-    # # Q3
-    # begin
-    #   check_product?([1,2,3],6) == true ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
+    begin
+      average([10, 20, 30, 40]) == 25 ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
 
-    # # Q4
-    # begin
-    #   count_vowels("Home") == 2 ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
-    #
-    # # Q5
-    # begin
-    #   valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
-    #
-    # # Q6
-    # begin
-    #   longest_common_prefix(["a","aa","abc"]) == "a" ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
+    # Q2
+    begin
+      twin_prime?(7,11)  == false ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
+
+    # Q3
+    begin
+      check_product?([1,2,3],6) == true ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
+
+    # Q4
+    begin
+      count_vowels("Home") == 2 ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
+
+    # Q5
+    begin
+      valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
+
+    # Q6
+    begin
+      longest_common_prefix(["a","aa","abc"]) == "a" ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
 
     #Q7
     begin
