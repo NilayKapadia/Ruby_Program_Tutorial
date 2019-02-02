@@ -1,5 +1,5 @@
 
-  load 'ruby_intro_19spring.rb'
+  load 'ruby_intro_Team_12_nkapadi_sbekkem.rb'
 
   def scores
     correct = 0
@@ -34,13 +34,13 @@
       wrong+=1
     end
 
-    # # Q5
-    # begin
-    #   valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
-    # rescue
-    #   wrong+=1
-    # end
-    #
+    # Q5
+    begin
+      valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
+    rescue
+      wrong+=1
+    end
+
     # Q6
     begin
       longest_common_prefix(["a","aa","abc"]) == "a" ? correct+=1 : wrong+=1
@@ -50,7 +50,7 @@
 
     #Q7
     begin
-      b2 = Student.new("Kevin", "02-29-2019")
+      b2 = Student.new("Kevin", "02-29-1971")
       #puts b2.got_enrolled_on
     rescue
       b2 = nil
