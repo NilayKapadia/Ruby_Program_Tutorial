@@ -34,13 +34,13 @@
       wrong+=1
     end
 
-    # Q5
-    begin
-      valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
-    rescue
-      wrong+=1
-    end
-
+    # # Q5
+    # begin
+    #   valid_parentheses?("()[]{}") == true  ? correct+=1 : wrong+=1
+    # rescue
+    #   wrong+=1
+    # end
+    #
     # Q6
     begin
       longest_common_prefix(["a","aa","abc"]) == "a" ? correct+=1 : wrong+=1
